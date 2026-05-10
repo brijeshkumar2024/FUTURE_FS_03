@@ -32,5 +32,7 @@ A responsive restaurant website for the local business **Spice Garden**, built w
 
 ## Viewing the demo
 
-Open `index.html` in a browser to view the live demo locally.
-# FUTURE_FS_03  
+Open `index.html` in a browser to view the live demo locally, or visit the live deployment:
+
+- https://spicygardenn.vercel.app/
+
