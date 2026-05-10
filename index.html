@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spice Garden | Luxury Dining Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-ring"></div>
+    <p>Preparing your luxury dining experience</p>
+  </div>
+
+  <div class="scroll-progress" id="progressBar"></div>
+  <div class="noise-layer"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <a class="whatsapp-chat" href="https://wa.me/8984225687?text=Hi%20Spice%20Garden%20team,%20I%20would%20like%20to%20reserve%20a%20table." target="_blank" rel="noreferrer noopener">
+    <span>WhatsApp</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48a11.72 11.72 0 00-16.9 0A11.7 11.7 0 002 13.65c0 2.06.54 4.08 1.57 5.84L2 22l2.64-.69a11.7 11.7 0 005.67 1.45h.03c6.47 0 11.76-5.25 11.76-11.73a11.7 11.7 0 00-3.58-8.05zm-8.4 17.63h-.02a9.41 9.41 0 01-4.78-1.3l-.34-.2-3.12.82.84-3.05-.22-.35a9.29 9.29 0 01-1.41-4.96 9.39 9.39 0 01116.74-6.67 9.39 9.39 0 01-6.67 16.75zm5.15-7.15c-.28-.14-1.66-.82-1.92-.91-.26-.1-.45-.14-.64.14-.2.28-.78.9-.96 1.09-.18.2-.36.22-.67.07-.31-.14-1.3-.48-2.48-1.52-.92-.82-1.53-1.84-1.71-2.15-.18-.31-.02-.48.14-.63.14-.14.31-.37.47-.55.16-.18.2-.31.3-.52.1-.2.05-.38-.02-.52-.07-.14-.64-1.55-.88-2.12-.23-.56-.47-.48-.64-.49-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37-.27.3-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.12 3.3 5.12 4.63.72.31 1.28.5 1.72.64.72.24 1.38.21 1.9.13.58-.09 1.66-.68 1.9-1.34.23-.66.23-1.22.16-1.34-.08-.12-.29-.2-.57-.34z"></path></svg>
+  </a>
+
+  <header class="site-header glass">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <div class="logo-mark"></div>
+        <div>
+          <span>Spice Garden</span>
+          <small>Luxury dining reimagined</small>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#reserve">Reserve</a>
+        <a href="#location">Location</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero reveal">
+      <div class="hero-media"></div>
+      <div class="hero-gradient"></div>
+      <div class="smoke-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">Michelin-inspired dining</span>
+          <h1>Where modern luxury meets soulful spice.</h1>
+          <div class="hero-tagline">
+            <span class="tagline-text">Curated tables · Rich tastes · Timeless evenings</span>
+          </div>
+          <p>Experience Spice Garden’s cinematic atmosphere, elevated dishes, and intimate service designed for unforgettable evenings.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#reserve">Reserve a Table</a>
+            <a class="btn btn-secondary magnetic" href="#menu">See the Menu</a>
+          </div>
+        </div>
+
+        <div class="hero-aside">
+          <div class="hero-badge">
+            <p>4.9 <span>/ 5</span></p>
+            <small>237 glowing guest reviews</small>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong>15</strong>
+              <span>Years of flavor</span>
+            </div>
+            <div>
+              <strong>280+</strong>
+              <span>signature dishes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="floating-showcase reveal">
+        <div class="showcase-card">
+          <div class="showcase-image"></div>
+          <div class="showcase-copy">
+            <span>Signature Dish</span>
+            <h3>Smoked Lamb Roulade</h3>
+            <p>Crisp herbs, velvety jus, and cinematic presentation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-wheel"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section reveal">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <span class="section-label">About Us</span>
+          <h2>A destination for refined spice, rich hospitality, and immersive service.</h2>
+          <p>Spice Garden began as a mission to create a luxury dining destination that balances bold taste with elegant presentation. Each dish is carefully composed to deliver warmth, texture, and memorable flavor.</p>
+          <p>Our kitchen crafts seasonal menus inspired by local ingredients, contemporary technique, and the timeless traditions of fine dining.</p>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-number" data-target="15">0</span>
+              <small>Years of expertise</small>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="280">0</span>
+              <small>Signature creations</small>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="237">0</span>
+              <small>Guest reviews</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="chef-card glass">
+          <div class="chef-image"></div>
+          <div class="chef-info">
+            <span class="section-label">Meet the chef</span>
+            <h3>Chef Amina Patel</h3>
+            <p>With 15 years of culinary artistry, Chef Amina elevates every plate with refined spice blends, seasonal sourcing, and contemporary technique.</p>
+            <p class="chef-signature">"Every dish is thoughtfully composed for guests to savor."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu-section reveal">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Menu</span>
+          <h2>Curated courses for exceptional evenings.</h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Menu categories">
+          <button class="tab active" data-tab="starters" role="tab" aria-selected="true">Starters</button>
+          <button class="tab" data-tab="main" role="tab" aria-selected="false">Main Course</button>
+          <button class="tab" data-tab="desserts" role="tab" aria-selected="false">Desserts</button>
+          <button class="tab" data-tab="drinks" role="tab" aria-selected="false">Drinks</button>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card" data-content="starters">
+            <div class="menu-card-head">
+              <h3>Spiced Lentil Soup</h3>
+              <span>₹660</span>
+            </div>
+            <p>Comforting lentils simmered with tomato, cumin and fresh herbs.</p>
+          </article>
+          <article class="menu-card" data-content="starters">
+            <div class="menu-card-head">
+              <h3>Crispy Paneer Bites</h3>
+              <span>₹900</span>
+            </div>
+            <p>Golden paneer with chili-tamarind glaze and mint dipping sauce.</p>
+          </article>
+          <article class="menu-card" data-content="starters">
+            <div class="menu-card-head">
+              <h3>Garden Salad</h3>
+              <span>₹740</span>
+            </div>
+            <p>Seasonal greens with toasted seeds and house citrus dressing.</p>
+          </article>
+
+          <article class="menu-card hidden" data-content="main">
+            <div class="menu-card-head">
+              <h3>Grilled Herb Chicken</h3>
+              <span>₹1480</span>
+            </div>
+            <p>Marinated chicken breast served with saffron rice and roasted veggies.</p>
+          </article>
+          <article class="menu-card hidden" data-content="main">
+            <div class="menu-card-head">
+              <h3>Vegetable Curry Bowl</h3>
+              <span>₹1320</span>
+            </div>
+            <p>Chef's seasonal vegetables in a creamy coconut curry with naan.</p>
+          </article>
+          <article class="menu-card hidden" data-content="main">
+            <div class="menu-card-head">
+              <h3>Spice Garden Burger</h3>
+              <span>₹1240</span>
+            </div>
+            <p>A savory patty with grilled peppers, lettuce, and chipotle aioli.</p>
+          </article>
+
+          <article class="menu-card hidden" data-content="desserts">
+            <div class="menu-card-head">
+              <h3>Mango Pudding</h3>
+              <span>₹580</span>
+            </div>
+            <p>Silky mango custard topped with toasted coconut.</p>
+          </article>
+          <article class="menu-card hidden" data-content="desserts">
+            <div class="menu-card-head">
+              <h3>Chocolate Tart</h3>
+              <span>₹660</span>
+            </div>
+            <p>Rich dark chocolate tart with berry compote.</p>
+          </article>
+          <article class="menu-card hidden" data-content="desserts">
+            <div class="menu-card-head">
+              <h3>Spiced Apple Crumble</h3>
+              <span>₹660</span>
+            </div>
+            <p>Warm apple filling with a cinnamon crisp topping.</p>
+          </article>
+
+          <article class="menu-card hidden" data-content="drinks">
+            <div class="menu-card-head">
+              <h3>Mint Lime Cooler</h3>
+              <span>₹500</span>
+            </div>
+            <p>Refreshing mint, lime and ginger finish.</p>
+          </article>
+          <article class="menu-card hidden" data-content="drinks">
+            <div class="menu-card-head">
+              <h3>Masala Chai</h3>
+              <span>₹420</span>
+            </div>
+            <p>Classic chai brewed with warming spice and milk.</p>
+          </article>
+          <article class="menu-card hidden" data-content="drinks">
+            <div class="menu-card-head">
+              <h3>House Lemonade</h3>
+              <span>₹500</span>
+            </div>
+            <p>Fresh lemon, orange blossom, and sparkling water.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section reveal">
+      <div class="container">
+        <span class="section-label">Gallery</span>
+        <h2>The cinematic atmosphere of Spice Garden.</h2>
+        <div class="gallery-masonry">
+          <button class="gallery-item" data-image="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1000&q=80"><img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=500&q=60" alt="Restaurant dining area" /></button>
+          <button class="gallery-item" data-image="https://images.unsplash.com/photo-1543353071-873f17a7a088?auto=format&fit=crop&w=1000&q=80"><img src="https://images.unsplash.com/photo-1543353071-873f17a7a088?auto=format&fit=crop&w=500&q=60" alt="Gourmet food dish" /></button>
+          <button class="gallery-item" data-image="https://images.unsplash.com/photo-1517244071305-7d8c6c8d8a14?auto=format&fit=crop&w=1000&q=80"><img src="https://images.unsplash.com/photo-1517244071305-7d8c6c8d8a14?auto=format&fit=crop&w=500&q=60" alt="Restaurant bar and lights" /></button>
+          <button class="gallery-item" data-image="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=80"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=60" alt="Spiced entrée" /></button>
+          <button class="gallery-item" data-image="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=500&q=60" alt="Chef plating" /></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews-section reveal">
+      <div class="container reviews-grid">
+        <div class="reviews-intro">
+          <span class="section-label">Testimonials</span>
+          <h2>What diners are saying</h2>
+          <p>Guests praise our elevated plates, attentive service, and intimate luxury ambiance.</p>
+        </div>
+        <div class="review-cards">
+          <article class="review-card active">
+            <p>"Spice Garden feels like home. The food is rich, the service is warm, and the atmosphere is inviting."</p>
+            <footer>— Maya R.</footer>
+          </article>
+          <article class="review-card">
+            <p>"Amazing flavors and attention to detail. Our whole family loved the menu and the chef even took time to greet us."</p>
+            <footer>— Daniel T.</footer>
+          </article>
+          <article class="review-card">
+            <p>"A great dinner spot for date night. The desserts are unforgettable and the cocktails are perfectly balanced."</p>
+            <footer>— Priya S.</footer>
+          </article>
+        </div>
+        <div class="review-controls">
+          <button class="carousel-control prev" aria-label="Previous review">‹</button>
+          <button class="carousel-control next" aria-label="Next review">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="reserve" class="section reserve-section reveal">
+      <div class="container reserve-panel glass">
+        <div class="reserve-copy">
+          <span class="section-label">Reserve</span>
+          <h2>Book your table in a few elegant steps.</h2>
+          <p>Secure a seat for dinner, celebrations, or an intimate evening with thoughtful hospitality and menu highlights.</p>
+        </div>
+        <form class="reserve-form" action="#" method="post">
+          <div class="form-grid">
+            <label class="form-field">
+              <span>Name</span>
+              <input id="guest-name" name="name" type="text" placeholder="Enter your name" required />
+            </label>
+            <label class="form-field">
+              <span>Date</span>
+              <input id="reservation-date" name="date" type="date" required />
+            </label>
+            <label class="form-field">
+              <span>Time</span>
+              <input id="reservation-time" name="time" type="time" required />
+            </label>
+            <label class="form-field">
+              <span>Guests</span>
+              <select id="guests" name="guests" required>
+                <option value="1">1 guest</option>
+                <option value="2" selected>2 guests</option>
+                <option value="3">3 guests</option>
+                <option value="4">4 guests</option>
+                <option value="5">5 guests</option>
+                <option value="6">6 guests</option>
+              </select>
+            </label>
+          </div>
+          <label class="form-field form-field-full">
+            <span>Special Requests</span>
+            <textarea id="requests" name="requests" rows="4" placeholder="Any dietary needs or celebrations"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Reservation</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="location" class="section location-section reveal">
+      <div class="container location-grid">
+        <div>
+          <span class="section-label">Location</span>
+          <h2>Visit us in the heart of the neighborhood.</h2>
+          <p>Spice Garden blends a refined dining room with an inviting atmosphere, making every dinner feel celebratory.</p>
+        </div>
+        <div class="map-frame">
+          <iframe title="Spice Garden location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4784635997046!2d144.96305791537366!3d-37.81362797975109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43cddf8749%3A0x1a370949d69fe9fd!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Spice Garden</h3>
+        <p>Elevated spice, refined hospitality, and memorable dinners.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>123 Flavor Street, Town Center</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: hello@spicegarden.com</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Mon–Thu: 11am – 10pm</p>
+        <p>Fri–Sat: 11am – 11pm</p>
+        <p>Sun: 11am – 9pm</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close gallery">×</button>
+    <img alt="Expanded gallery image" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
